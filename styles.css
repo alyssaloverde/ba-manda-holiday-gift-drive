@@ -1,0 +1,106 @@
+body{
+    background: rgb(216, 253, 248);
+    color: rgb(75, 75, 75);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(images/background.webp);
+    background-size: 100%;
+    background-position: center;
+    /* padding: 20px; */
+    text-align: center;
+    font-size: 120%;
+}
+header .logo {
+    background-image: url("images/logoWName.png");
+    background-size: 300px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 60px;
+    /* position: relative; */
+    width: 200px;
+    /* top: -50px; */
+    float: left;
+    text-align: left;
+    text-indent: -999999999999999999px;
+}
+h1 {
+    color: white; 
+    margin: 0;
+    padding: 60px 40px;
+    font-size: 70px;
+    text-shadow: -2px -2px 0 darkgreen, 2px -2px 0 darkgreen, 2px 2px 0 darkgreen,
+    2px 2px 0 darkgreen;
+}
+section{ 
+    background: white;
+    margin: 2%;
+    
+}
+.feature-box{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.feature-box img{
+    border-radius: 10%;
+    width: 48%;
+    margin: 1%;
+}
+div{
+    background-color: rgb(224, 251, 223);
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    border-radius: 10%;}
+ul{
+    margin: 0;
+    padding: 0px;
+    list-style-type: none;
+}
+nav{
+    background-color: rgb(216, 253, 248);
+    margin: 0;
+    padding: 0px;
+    text-align: right;
+    font-size: 120%;
+    padding: 20px;
+}
+li.first-child{
+    margin: -100;
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+h2 {
+    color: rgb(86, 115, 246);
+    opacity: 0.9;
+    text-align: center;
+}
+button{
+    background-color: rgb(216, 253, 248);
+    border: none;
+    color: rgb(96, 139, 255);
+    border-radius: 7px;
+}
+footer{
+    background: rgb(230, 227, 250);
+}
+p{
+    margin: 10px;
+}
+
+.social-img {
+    vertical-align: middle;
+}
