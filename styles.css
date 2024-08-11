@@ -5,33 +5,54 @@ body{
     margin: 0;
     padding: 0;
 }
+body .home{
+    background-image: url(images/background.webp); 
+}
+body .mission{
+    background-image: url(images/background8.jpg);
+    background-size: 800px;
+}
+body .about{
+    background-image: url(images/background2.webp);
+}
+body .help{
+    background-image: url(images/background4.png);
+    background-position-y: 46.5%;
+}
+body .connected{
+    background-image: url(images/background9.avif);
+}
 header{
-    background-image: url(images/background.webp);
     background-size: 100%;
     background-position: center;
-    /* padding: 20px; */
+    padding: 20px;
     text-align: center;
     font-size: 120%;
 }
+
 header .logo {
-    background-image: url("images/logoWName.png");
+    background-image: url("images/logo.png");
+    background-color: transparent;
     background-size: 300px;
-    background-size: 50%;
+    background-size: 70%;
     background-repeat: no-repeat;
     display: inline-block;
-    height: 60px;
+    height: 100px;
     /* position: relative; */
     width: 200px;
     /* top: -50px; */
+    margin-top: -20px;
     float: left;
     text-align: left;
     text-indent: -999999999999999999px;
+    margin-left: -20px;
 }
 h1 {
     color: white; 
     margin: 0;
     padding: 60px 40px;
     font-size: 70px;
+    text-align: center;
     text-shadow: -2px -2px 0 darkgreen, 2px -2px 0 darkgreen, 2px 2px 0 darkgreen,
     2px 2px 0 darkgreen;
 }
@@ -50,12 +71,7 @@ section{
     width: 48%;
     margin: 1%;
 }
-div{
-    background-color: rgb(224, 251, 223);
-    margin: auto;
-    width: 500px;
-    height: 300px;
-    border-radius: 10%;}
+
 ul{
     margin: 0;
     padding: 0px;
@@ -68,6 +84,7 @@ nav{
     text-align: right;
     font-size: 120%;
     padding: 20px;
+    height: 70px;
 }
 li.first-child{
     margin: -100;
@@ -101,6 +118,36 @@ p{
     margin: 10px;
 }
 
-.social-img {
+img.social-img {
     vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+}
+
+div.social {
+    height: 120px;
+    margin: auto;
+    width: 500px;
+}
+
+div.social-logos{
+    width: 200px;
+    margin-top: 50px;
+    height: 300px;
+    margin-left: 100px;
+}
+
+div.explanation{
+    margin-right: 300px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+div.help-description{
+    background-color: rgb(224, 251, 223);
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    border-radius: 10%
 }
