@@ -5,6 +5,7 @@ body{
     margin: 0;
     padding: 0;
     min-width: 1024px;
+    overflow-x: scroll;
 }
 body .home{
     background-image: url(images/gifts\ 2.png); 
