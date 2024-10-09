@@ -140,8 +140,7 @@ button{
 footer{
     background: rgb(237, 233, 233);
     text-align: center;
-    padding: 2%;
-    word-spacing: 6100%;
+    padding: 2% 
 }
 p{
     margin: 10px;
@@ -277,3 +276,6 @@ img.nonprofit-img{
     margin-left: -5%;
 }
 
+a {
+    position: relative;
+}
