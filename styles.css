@@ -4,6 +4,7 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0;
     padding: 0;
+    min-width: 1024px;
 }
 body .home{
     background-image: url(images/gifts\ 2.png); 
@@ -24,7 +25,7 @@ body .connected{
 }
 header{
     background-size: 100%;
-    background-position: center;
+    background-position: center; padding: 20px;
     padding: 20px;
     text-align: center;
     font-size: 120%;
@@ -34,12 +35,12 @@ header .logo {
     background-image: url("images/logo.png");
     background-color: transparent;
     background-size: 300px;
-    background-size: 53%;
+    background-size: 100px;
     background-repeat: no-repeat;
     display: inline-block;
     height: 100px;
     /* position: relative; */
-    width: 200px;
+    width: 100px;
     /* top: -50px; */
     margin-top: -20px;
     float: left;
@@ -121,10 +122,11 @@ li.header{
 .header a{
     color: rgb(60, 60, 60);
     text-decoration: none;
+    padding: 20px;
 }
 .header a:hover{
     background-color: rgba(10, 38, 122, 0.264);
-    padding: 20px;
+   
 }
 h2 {
     color: rgb(202, 77, 152);
