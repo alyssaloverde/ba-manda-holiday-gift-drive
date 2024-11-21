@@ -199,6 +199,40 @@ div.social {
   float: left;
 }
 
+img.footer-img {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  padding: 0%;
+  margin: 0px;
+}
+
+div.footer-socials{
+  margin-left: 5px;
+  margin-right: 5px;
+
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+}
+
+section.social-footer{
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+p.footer-text{
+  text-align: center;
+}
+
+img.nonprofit-img {
+  width: 80px;
+  margin-top: 2%;
+  float: right;
+  margin-left: -5%;
+}
+
 span.social-text {
   font-size: 115%;
 }
@@ -366,16 +400,9 @@ p.home-txt-2 {
   line-height: 6000%;
 }
 
-img.nonprofit-img {
-  width: 80px;
-  margin-top: 2%;
-  float: right;
-  margin-left: -5%;
-}
 
-p.footer-text{
-  margin-right: 20%;
-}
+
+
 
 /* img.nonprofit-img {
   width: 50px;
