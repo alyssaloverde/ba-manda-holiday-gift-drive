@@ -37,6 +37,7 @@ header {
   padding: 20px;
   text-align: center;
   font-size: 120%;
+
 }
 
 header .logo {
@@ -121,7 +122,7 @@ ul {
 
 nav {
   background-color: rgba(255, 255, 255, 0.649);
-  text-align: right;
+  text-align: center;
   font-size: 120%;
   margin: 0px;
   padding: 20px;
@@ -224,6 +225,7 @@ section.social-footer{
 
 p.footer-text{
   text-align: center;
+  color: rgb(55,95,150);
 }
 
 img.nonprofit-img {
@@ -288,7 +290,6 @@ section.feature-box-help {
 div.help-description {
   background-color: rgb(251, 223, 231);
   margin-bottom: 20px;
-  margin-left: 20px;
   margin-right: 20px;
   width: 40%;
   height: 460px;
@@ -300,8 +301,8 @@ div.help-description {
 }
 
 h1.home-title {
-  text-shadow: -5px -5px 5px darkgreen, 5px -5px 5px darkgreen, 5px 5px 5px darkgreen,
-    5px 5px 5px darkgreen;
+  text-shadow: -5px -5px 5px rgb(55,95,150), 5px -5px 5px rgb(55,95,150), 5px 5px 5px rgb(55,95,150),
+    5px 5px 5px rgb(55,95,150);
   color: white;
 }
 
