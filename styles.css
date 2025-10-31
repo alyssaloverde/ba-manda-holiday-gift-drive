@@ -96,6 +96,20 @@ section.feature-box-connected {
   flex-direction: row;
 }
 
+section.feature-box-image {
+  background: rgb(223, 236, 243);
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
 .feature-box {
   /* display: flex; */
   /* flex-direction: row; */
@@ -192,6 +206,15 @@ img.social-img {
   margin-left: 0px;
 }
 
+img.meet-img {
+  vertical-align: middle;
+  width: 210px;
+  height: 280px;
+  padding: 0%;
+  margin-left: 0px;
+  margin-bottom: 3%;
+}
+
 div.social {
   width: 25%;
   min-width: 290px;
@@ -235,8 +258,16 @@ img.nonprofit-img {
   margin-left: -5%;
 }
 
-span.social-text {
+span.social-text{
   font-size: 115%;
+}
+
+span.meet-text-1 {
+  font-size: 115%;
+}
+
+span.meet-text-2 {
+  font-size: 100%;
 }
 
 .social a {
@@ -396,6 +427,12 @@ p.home-txt-2 {
   margin-bottom: 5%;
 }
 
+p.thanks-txt {
+  text-align: center;
+  line-height: 200%;
+  margin-top: 3%;
+}
+
 
 .donations {
   line-height: 6000%;
@@ -419,3 +456,46 @@ a {
 .clear {
   clear: both;
 }
+
+div.meet {
+  width: 25%;
+  max-width: 200px;
+  height: 300px;
+  margin: 20px;
+  float: left;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+div.thanks{
+  width: 25%;
+  max-width: 200px;
+  height: 300px;
+  margin: 20px;
+  float: left;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 3%;
+  text-align: center; 
+}
+
+img.thanks-art-img {
+  vertical-align: middle;
+  width: 100%;
+  height: 30%;
+  padding: 0%;
+  margin-left: 0px;
+  margin-bottom: 5%;
+}
+
+img.thanks-cyp-img {
+  vertical-align: middle;
+  width: 100%;
+  height: 30%;
+  padding: 0%;
+  margin-left: 0px;
+  margin-bottom: 5%;
+}
+
