@@ -31,6 +31,14 @@ body .connected {
   background-image: url(images/background9.avif);
 }
 
+body .meet-background{
+  background-image: url(images/meet.jpg);
+}
+
+body .thanks-background{
+  background-image: url(images/thanks.png);
+}
+
 header {
   background-size: 100%;
   background-position: center;
@@ -498,4 +506,5 @@ img.thanks-cyp-img {
   margin-left: 0px;
   margin-bottom: 5%;
 }
+
 
