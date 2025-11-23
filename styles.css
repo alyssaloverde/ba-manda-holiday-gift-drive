@@ -507,4 +507,24 @@ img.thanks-cyp-img {
   margin-bottom: 5%;
 }
 
+img.thanks-img{
+  width: 100%;
+  height: 90%; 
+}
 
+img.thanks-building-blocks{
+  vertical-align: middle;
+  width: 30%;
+  height: 30%;
+  margin-top:  2%;
+  margin-bottom: -2%;
+  
+}
+
+.building-blocks-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  width: 100%;            
+  margin-top: 30px;      
+}
